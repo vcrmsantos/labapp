@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "318208313937",
+    "firebase_url": "https://labapp-fatecipiranga.firebaseio.com",
+    "project_id": "labapp-fatecipiranga",
+    "storage_bucket": "labapp-fatecipiranga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318208313937:android:584b51980ad8eb3b",
+        "android_client_info": {
+          "package_name": "br.com.fatecipiranga.app.labapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318208313937-469q47l0p98cfl4vs4hr92t63143tje8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.fatecipiranga.app.labapp",
+            "certificate_hash": "c2cb5f024b671458481c43993aeda9854ebc22bc"
+          }
+        },
+        {
+          "client_id": "318208313937-6kchsvoltmia86vkda04puduklfiqqdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBIWlePiNdGC1HA8EB-0kZhL0fYFDJ6kY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318208313937-6kchsvoltmia86vkda04puduklfiqqdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

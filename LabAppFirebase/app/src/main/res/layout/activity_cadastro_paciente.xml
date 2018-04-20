@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fatecipiranga.app.labapp.main.View.CadastroPacienteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/cadastrarPacienteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomePacienteEditText"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/nomePacienteEditText"
+            android:layout_marginLeft="111dp"
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="136dp"
+            android:text="Cadastrar Paciente" />
+
+        <EditText
+            android:id="@+id/nomePacienteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/cadastrarPacienteTextView"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailPacienteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/nomePacienteEditText"
+            android:layout_marginTop="49dp"
+            android:ems="10"
+            android:hint="Digite seu e-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/senhaPacienteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/emailPacienteEditText"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:hint="Digite uma senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/cadastrarPacienteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/cadastrarPacienteTextView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/cadastrarPacienteTextView"
+            android:layout_marginBottom="37dp"
+            android:text="Cadastrar" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cadastrarPacienteTextView"
+            android:layout_alignLeft="@+id/cadastrarPacienteButton"
+            android:layout_alignStart="@+id/cadastrarPacienteButton"
+            android:layout_marginBottom="41dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
